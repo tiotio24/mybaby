@@ -11,20 +11,6 @@
     <!-- Landing Page -->
     <div class="landing">
         <img src="1.png" alt="Landing Page" class="landing-image" onclick="openEnvelope()">
-    </div>
-     // Hide the landing page
-    document.querySelector(".landing").style.display = "none";
-    
-    // Show the transition page
-    document.getElementById("transitionContent").classList.remove("hidden");
-    
-    // Set a timeout to show the romance page after a few seconds
-    setTimeout(() => {
-        document.getElementById("transitionContent").style.display = "none"; // Hide transition page
-        document.getElementById("romanceContent").classList.remove("hidden"); // Show romance page
-    }, 3000); // Change this duration (in milliseconds) as needed
-}
-    <!-- Transition Page (hidden initially) -->
     <div class="transition hidden" id="transitionContent">
         <img src="2.png" alt="Transition Page" class="transition-image">
     </div>
