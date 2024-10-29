@@ -1,0 +1,47 @@
+/* Spooky Theme */
+body.spooky {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+/* Landing Page */
+.landing {
+    position: relative;
+}
+
+.landing-image {
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Transition Page */
+.transition {
+    display: none;
+    text-align: center;
+}
+
+.transition-image {
+    width: 100%;
+}
+
+/* Romance Page */
+.romance {
+    display: none;
+    text-align: center;
+}
+
+.romance-image {
+    width: 100%;
+}
+
+.photo-gallery img {
+    max-width: 100px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Hidden class to toggle visibility */
+.hidden {
+    display: none;
+}
